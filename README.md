@@ -53,7 +53,7 @@
 
 1. **Start the application:**
    ```bash
-   python app.py
+   streamlit run app.py
    ```
    
    The app will launch automatically at [http://localhost:5001](http://localhost:5001)
@@ -105,7 +105,7 @@ The tool expects conversation files with this structure:
 ]
 ```
 
-**Supported formats:** JSON (.json) and YAML (.yml, .yaml)
+**Supported formats:** YAML (.yml, .yaml)
 
 ## Architecture
 
@@ -130,7 +130,7 @@ The tool expects conversation files with this structure:
 
 ### LLM Detection  
 - **Speed**: 2-3 seconds (API call)
-- **Method**: AI analysis using GPT-3.5-turbo with specialized prompts
+- **Method**: LLM analysis using GPT-3.5-turbo with SYSTEM prompts
 - **Best for**: Context-aware, nuanced detection
 
 ## Dataset Information
