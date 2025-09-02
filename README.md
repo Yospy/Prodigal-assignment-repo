@@ -41,10 +41,9 @@
    
    Create a `.env` file in the project root:
    ```bash
-   OPENAI_API_KEY=your_api_key_here
+   OPENAI_KEY=your_api_key_here
    ```
-   
-   Get your API key from [OpenAI Platform](https://platform.openai.com/api-keys)
+
 
 4. **Verify dataset:**
    
